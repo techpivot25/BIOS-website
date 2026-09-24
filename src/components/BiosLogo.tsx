@@ -1,0 +1,166 @@
+import React from 'react';
+
+interface BiosLogoProps {
+  className?: string;
+  variant?: 'white' | 'dark' | 'auto';
+  showTagline?: boolean;
+}
+
+/**
+ * BiosLogo - Official BIOS (A ZainTech Company) Vector Brand Logo
+ * Fully calibrated vector with generous viewport margins and overflow safety
+ * to ensure no elements, letters, or sub-brand text ever get clipped on any device.
+ */
+export const BiosLogo: React.FC<BiosLogoProps> = ({
+  className = 'h-10 w-auto',
+  variant = 'white',
+  showTagline = true,
+}) => {
+  const fillColor = variant === 'dark' ? '#0F172A' : '#FFFFFF';
+
+  return (
+    <svg
+      viewBox="-15 -15 970 495"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      overflow="visible"
+      style={{ overflow: 'visible' }}
+      className={`${className} transition-transform duration-200 select-none block`}
+      aria-label="BIOS - A ZainTech Company"
+    >
+      {/* Cloud Emblem positioned above O and S */}
+      <g id="cloud-emblem" fill={fillColor}>
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="
+            M 515 130
+            C 490 130 472 110 472 88
+            C 472 68 486 52 506 48
+            C 514 20 538 2 570 2
+            C 600 2 624 16 634 40
+            C 644 32 658 26 676 26
+            C 704 26 726 44 732 70
+            C 742 66 752 64 766 64
+            C 794 64 816 86 816 114
+            C 816 122 812 128 808 130
+            L 515 130 Z
+
+            M 744 58
+            C 736 74 732 96 752 120
+            C 760 120 742 98 740 78
+            C 740 68 742 62 744 58 Z
+          "
+        />
+      </g>
+
+      {/* BIOS Typography */}
+      <g id="bios-letters" fill={fillColor}>
+        {/* Letter B */}
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="
+            M 30 152
+            H 175
+            C 216 152 242 174 242 206
+            C 242 226 228 242 208 252
+            C 232 262 248 282 248 308
+            C 248 346 216 406 170 406
+            H 30
+            V 152 Z
+
+            M 74 196
+            V 248
+            H 160
+            C 180 248 196 238 196 222
+            C 196 206 180 196 160 196
+            H 74 Z
+
+            M 74 290
+            V 362
+            H 164
+            C 184 362 202 350 202 326
+            C 202 302 184 290 164 290
+            H 74 Z
+          "
+        />
+
+        {/* Letter I */}
+        <rect x="285" y="152" width="44" height="254" rx="3" />
+
+        {/* Letter O */}
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="
+            M 425 152
+            H 525
+            C 580 152 610 182 610 237
+            V 321
+            C 610 376 580 406 525 406
+            H 425
+            C 370 406 340 376 340 321
+            V 237
+            C 340 182 370 152 425 152 Z
+
+            M 431 196
+            C 399 196 384 212 384 244
+            V 314
+            C 384 346 399 362 431 362
+            H 519
+            C 551 362 566 346 566 314
+            V 244
+            C 566 212 551 196 519 196
+            H 431 Z
+          "
+        />
+
+        {/* Letter S - Clean, balanced geometric S with no kinks and full margin */}
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="
+            M 630 220
+            L 674 220
+            C 674 198 694 186 730 186
+            H 780
+            C 816 186 836 200 836 222
+            C 836 244 820 256 774 266
+            L 720 278
+            C 664 290 634 312 634 346
+            C 634 382 668 406 726 406
+            H 784
+            C 836 406 866 384 870 348
+            L 826 348
+            C 822 364 808 372 780 372
+            H 730
+            C 696 372 678 360 678 344
+            C 678 326 694 316 738 306
+            L 792 294
+            C 848 282 878 260 878 224
+            C 878 186 846 152 786 152
+            H 724
+            C 664 152 630 178 630 220 Z
+          "
+        />
+      </g>
+
+      {/* Sub-Brand: A ZAINTECH COMPANY */}
+      {showTagline && (
+        <text
+          x="878"
+          y="458"
+          textAnchor="end"
+          fontFamily="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+          fontSize="38"
+          fontWeight="800"
+          letterSpacing="4.5"
+          fill={fillColor}
+        >
+          A ZAINTECH COMPANY
+        </text>
+      )}
+    </svg>
+  );
+};

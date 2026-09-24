@@ -1,0 +1,8 @@
+{
+  "name": "Biosme https://www.biosme.com/",
+  "description": "BIOS Middle East (A ZainTech Company) - The Middle East's local Managed Service And Cloud Provider. Sovereign Private CloudHPT, GCC Public Cloud, Gartner-recognized DRaaS, and 24x7 NOC & SOC.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

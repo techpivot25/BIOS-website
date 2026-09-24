@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 330" width="100%" height="100%">
+  <defs>
+    <style>
+      .header-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 15px; font-weight: 700; fill: #64748b; letter-spacing: 0.08em; text-anchor: middle; text-transform: uppercase; }
+      .col-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 13.5px; font-weight: 800; fill: #1e293b; text-transform: uppercase; letter-spacing: 0.03em; }
+      .col-header { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 13.5px; font-weight: 700; fill: #1e293b; line-height: 1.35; }
+      .bullet-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 12px; font-weight: 500; fill: #334155; line-height: 1.45; }
+      .plus-symbol { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; font-size: 26px; font-weight: 300; fill: #00adef; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1020" height="330" fill="#ffffff" />
+
+  <!-- Top Title -->
+  <text x="510" y="32" class="header-title">OUR INTEGRATED SOLUTION</text>
+
+  <!-- Border Box (Teal border matching original image) -->
+  <rect x="20" y="48" width="980" height="268" rx="8" fill="#ffffff" stroke="#14b8a6" stroke-width="2.2" />
+
+  <!-- ==================== COLUMN 1: Office 365 ==================== -->
+  <g transform="translate(38, 70)">
+    <!-- Office 365 Exact Logo & Title (aligned at y=15) -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="22" height="22" rx="3" fill="#d83b01" />
+      <path d="M 5, 5 L 17, 5 L 17, 19 L 5, 19 Z" fill="#ffffff" fill-opacity="0.95" />
+      <path d="M 7, 7 L 15, 7 L 15, 17 L 7, 17 Z" fill="#d83b01" />
+      <text x="28" y="16" font-family="'Segoe UI', -apple-system, sans-serif" font-size="16" font-weight="700" fill="#d83b01">Office 365</text>
+    </g>
+
+    <!-- Subheading (aligned at y=48) -->
+    <text x="0" y="48" class="col-header">Plans optimized</text>
+    <text x="0" y="65" class="col-header">for your business</text>
+
+    <!-- Bullets (aligned at y=120) -->
+    <text x="0" y="120" class="bullet-text">Correct Office 365</text>
+    <text x="0" y="136" class="bullet-text">plans</text>
+
+    <text x="0" y="164" class="bullet-text">Licenses optimized for</text>
+    <text x="0" y="180" class="bullet-text">your business</text>
+  </g>
+
+  <!-- Plus 1 (Centered vertically at y=84) -->
+  <text x="214" y="88" class="plus-symbol">+</text>
+
+  <!-- ==================== COLUMN 2: Migration ==================== -->
+  <g transform="translate(234, 70)">
+    <!-- Cloud Icon & Title (aligned at y=15) -->
+    <g transform="translate(0, 0)">
+      <path d="M 3, 14 A 4.5 4.5 0 0 1 10, 8 A 5.5 5.5 0 0 1 18, 12 A 3.5 3.5 0 0 1 17, 18 L 4, 18 A 3.5 3.5 0 0 1 3, 14 Z" fill="none" stroke="#475569" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+      <polyline points="9, 12 12, 9 15, 12" fill="none" stroke="#475569" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+      <line x1="12" y1="9" x2="12" y2="15" stroke="#475569" stroke-width="1.6" stroke-linecap="round" />
+      <text x="26" y="16" class="col-title">MIGRATION</text>
+    </g>
+
+    <!-- Subheading (aligned at y=48) -->
+    <text x="0" y="48" class="col-header">A simple, safe, and</text>
+    <text x="0" y="65" class="col-header">seamless move to</text>
+    <text x="0" y="82" class="col-header">O365</text>
+
+    <!-- Bullets (aligned at y=120) -->
+    <text x="0" y="120" class="bullet-text">Minimal end user</text>
+    <text x="0" y="136" class="bullet-text">burden</text>
+
+    <text x="0" y="164" class="bullet-text">Reduced risk with real-</text>
+    <text x="0" y="180" class="bullet-text">time monitoring</text>
+  </g>
+
+  <!-- Plus 2 (Centered vertically at y=84) -->
+  <text x="412" y="88" class="plus-symbol">+</text>
+
+  <!-- ==================== COLUMN 3: Cloud Backup ==================== -->
+  <g transform="translate(432, 70)">
+    <!-- Circular Arrow / Backup Icon & Title (aligned at y=15) -->
+    <g transform="translate(0, 0)">
+      <path d="M 3, 11 A 8 8 0 1 0 6, 5" fill="none" stroke="#475569" stroke-width="1.8" stroke-linecap="round" />
+      <polyline points="2, 5 6, 5 6, 9" fill="none" stroke="#475569" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+      <polyline points="11, 7 11, 11 14, 13" fill="none" stroke="#475569" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+      <text x="24" y="16" class="col-title">CLOUD BACKUP</text>
+    </g>
+
+    <!-- Subheading (aligned at y=48) -->
+    <text x="0" y="48" class="col-header">Complete data</text>
+    <text x="0" y="65" class="col-header">protection across</text>
+    <text x="0" y="82" class="col-header">O365</text>
+
+    <!-- Bullets (aligned at y=120) -->
+    <text x="0" y="120" class="bullet-text">Unlimited backup</text>
+    <text x="0" y="144" class="bullet-text">Up to 6 daily backups</text>
+    <text x="0" y="168" class="bullet-text">No data limits or</text>
+    <text x="0" y="184" class="bullet-text">overages</text>
+  </g>
+
+  <!-- Plus 3 (Centered vertically at y=84) -->
+  <text x="620" y="88" class="plus-symbol">+</text>
+
+  <!-- ==================== COLUMN 4: Support ==================== -->
+  <g transform="translate(640, 70)">
+    <!-- Headset Icon & Title (aligned at y=15) -->
+    <g transform="translate(0, 0)">
+      <path d="M 3, 12 A 8 8 0 0 1 19, 12 V 16 A 2.5 2.5 0 0 1 16.5, 18.5 H 15" fill="none" stroke="#00adef" stroke-width="1.8" stroke-linecap="round" />
+      <rect x="1" y="11" width="4" height="6" rx="2" fill="#00adef" />
+      <rect x="17" y="11" width="4" height="6" rx="2" fill="#00adef" />
+      <text x="26" y="16" class="col-title">SUPPORT</text>
+    </g>
+
+    <!-- Subheading (aligned at y=48) -->
+    <text x="0" y="48" class="col-header">Advice and support</text>
+    <text x="0" y="65" class="col-header">to keep you</text>
+    <text x="0" y="82" class="col-header">productive</text>
+
+    <!-- Bullets (aligned at y=120) -->
+    <text x="0" y="120" class="bullet-text">24x7 end user support</text>
+
+    <text x="0" y="152" class="bullet-text">Proactive management of</text>
+    <text x="0" y="168" class="bullet-text">the environment</text>
+  </g>
+
+  <!-- Plus 4 (Centered vertically at y=84) -->
+  <text x="822" y="88" class="plus-symbol">+</text>
+
+  <!-- ==================== COLUMN 5: Security ==================== -->
+  <g transform="translate(842, 70)">
+    <!-- Shield Icon & Title (aligned at y=15) -->
+    <g transform="translate(0, 0)">
+      <path d="M 2, 3 L 11, 0.5 L 20, 3 V 10 C 20, 15.5 11, 19.5 11, 19.5 C 11, 19.5 2, 15.5 2, 10 Z" fill="none" stroke="#475569" stroke-width="1.6" />
+      <rect x="6" y="6" width="10" height="7" rx="1.2" fill="none" stroke="#64748b" stroke-width="1.2" />
+      <line x1="6" y1="9.5" x2="16" y2="9.5" stroke="#64748b" stroke-width="1" />
+      <text x="26" y="16" class="col-title">SECURITY</text>
+    </g>
+
+    <!-- Subheading (aligned at y=48) -->
+    <text x="0" y="48" class="col-header">Enhanced Security</text>
+    <text x="0" y="65" class="col-header">To keep you safe</text>
+
+    <!-- Bullets (aligned at y=120) -->
+    <text x="0" y="120" class="bullet-text">Email Security</text>
+    <text x="0" y="144" class="bullet-text">End point protection</text>
+    <text x="0" y="168" class="bullet-text">2FA</text>
+  </g>
+</svg>
